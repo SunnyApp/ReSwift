@@ -1,3 +1,4 @@
+// swift-tools-version:5.0
 import PackageDescription
 
 // swift-tools-version:4.2
@@ -21,7 +22,7 @@ let package = Package(
         .target(
             name: "ReSwift",
             dependencies: [],
-            path: "ReSwift/ReSwift"
+            path: "ReSwift"
             )
         
     ]
